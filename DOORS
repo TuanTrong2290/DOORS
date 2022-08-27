@@ -146,7 +146,7 @@ then w(
 [[[Event Notifier]: Ambush spawned, hide quickly! He can return up to 3-4 times!]]
 ,true)end y.new(H)elseif H.Name=='Lookman'then if Toggles.EVENT_NOTIFIER.Value
 then w('[Event Notifier]: Eyes spawned, look away!',true)end end end j:
-SetWatermark'Linoria Community (OminousVibes)'j:Notify'Loading UI...'do local I=
+SetWatermark'ditmecuocdoi'j:Notify'Loading UI...'do local I=
 j:CreateWindow'Doors'do local J=I:AddTab'Gameplay'do local K=J:AddLeftTabbox
 'Modifications'local L=K:AddTab'Character Mods'L:AddSlider('WALKSPEED',{Text=
 'Speed Boost',Min=0,Max=20,Default=0,Rounding=1,Suffix=''})L:AddToggle(
