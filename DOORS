@@ -135,7 +135,7 @@ end local D=function(D)while not v(D)do D.DescendantAdded:Wait()end t=D.Humanoid
 .WalkSpeed D.Humanoid.WalkSpeed=D.Humanoid.WalkSpeed+Options.WALKSPEED.Value end
 local E=function(E)local F=C.new(E)end local F=function(F)if F.Name=='Screech'
 then if Toggles.EVENT_NOTIFIER.Value then w(
-[[[Event Notifier]: Screech spawned, quickly turn around to look at it!]],true)
+[[[Event Notifier]: Screech kia?]],true)
 end end end local G=function(G)if G:IsA'Attachment'then if Toggles.
 REMOVE_AMBIENCE.Value then local H for I=1,10 do H=G:FindFirstChildWhichIsA
 'Sound'if H then break end task.wait()end if H then if o[H.Name]then H:Pause()
@@ -183,7 +183,7 @@ SetLibrary(j)k:SetLibrary(j)l:SetFolder'OminousVibes'k:SetFolder
 BuildConfigSection(J)l:ApplyToTab(J)local K=J:AddLeftGroupbox'Menu'K:AddButton(
 'Unload',function()j:Unload()end)K:AddLabel'Menu bind':AddKeyPicker(
 'MenuKeybind',{Default='End',NoUI=true,Text='Menu keybind'})K:AddToggle(
-'Keybinds',{Text='Show Keybinds Menu',Default=true}):OnChanged(function()j.
+'jj do',{Text='Show Keybinds Menu',Default=true}):OnChanged(function()j.
 KeybindFrame.Visible=Toggles.Keybinds.Value end)K:AddToggle('Watermark',{Text=
 'Show Watermark',Default=true}):OnChanged(function()j:SetWatermarkVisibility(
 Toggles.Watermark.Value)end)local L=J:AddRightGroupbox'Credits'L:AddLabel
